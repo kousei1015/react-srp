@@ -1,0 +1,3 @@
+# react-srp
+
+このレポジトリではSOLID原則の内、最初の「S」に当たるSimple Responsibility Principle(単一責任の原則)を意識したコードを書いてみました。具体的にはhooksディレクトリにuseFetchTodo.tsxというカスタムフックでフェッチする処理を、componentsフォルダのTodoList.tsxというファイルにフェッチしたデータの表示させる処理を書いています。こうすることで、それぞれ、useFetchTodo.tsxファイルにはロジック、TodoList.tsxファイルにはUIと責務が分かれ、保守性の向上が期待できます。
